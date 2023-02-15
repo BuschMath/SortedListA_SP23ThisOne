@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ItemType.h" />
+    <ClInclude Include="sorted.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ItemType.cpp" />
+    <ClCompile Include="listDriver.cpp" />
+    <ClCompile Include="sorted.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,15 +147,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\SortedListA_SP23\ItemType.cpp" />
-    <ClCompile Include="..\..\SortedListA_SP23\listDriver.cpp" />
-    <ClCompile Include="..\..\SortedListA_SP23\sorted.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\SortedListA_SP23\ItemType.h" />
-    <ClInclude Include="..\..\SortedListA_SP23\sorted.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
